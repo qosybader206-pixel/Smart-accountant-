@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.almasristore.cashier'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.almasristore.cashier'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
